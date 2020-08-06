@@ -14,9 +14,10 @@ var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
 app.get('/', function (req, res){
+    console.log(req)
     res.send(true);
 });
 
 
 httpServer.listen(8080, () => console.log('listening to port 3001!'));
-httpsServer.listen(8443);
+httpsServer.listen(8443 , () => console.log('listening to port 8443!'));
