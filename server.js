@@ -20,5 +20,5 @@ app.all('/', function (req, res){
 
 
 
-httpServer.listen(8080, () => console.log('listening to port 3001!'));
-httpsServer.listen(8443 , () => console.log('listening to port 8443!'));
+httpServer.listen(8081, () => console.log('listening to port 8081!'));
+httpsServer.listen(8444 , () => console.log('listening to port 8444!'));
